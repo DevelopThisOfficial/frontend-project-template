@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import TestComponent from "./components/TestComponent";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -6,5 +7,5 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  return <main>main!</main>;
+  return <TestComponent />;
 }
