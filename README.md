@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Here's a README for your project template:
+
+---
+
+# Project Template with Next.js, Styled Components, Jest, and Cypress
+
+This is a project template that integrates **Next.js** with **Styled Components** for styling, **Jest** for unit and component testing, and **Cypress** for end-to-end testing.
 
 ## Getting Started
 
-First, run the development server:
+### Installation
+
+To install the dependencies, run:
+
+```bash
+npm install
+```
+
+### Development
+
+To start the development server, run:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the Next.js development server on [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Running Tests
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Jest Tests
 
-## Learn More
+Jest tests are written in the `__tests__/` directory. To run Jest tests, use:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run test
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Cypress Tests
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Cypress tests are written in the `cypress/` directory. To open the Cypress test runner, use:
 
-## Deploy on Vercel
+```bash
+npm run cypress:open
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This will open the Cypress interface where you can run your end-to-end tests.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Project Structure
+
+- `app/` - Contains the Next.js pages and routing.
+- `components/` - Contains the React components styled with Styled Components.
+- `__tests__/` - Contains the Jest tests.
+- `cypress/` - Contains the Cypress tests.

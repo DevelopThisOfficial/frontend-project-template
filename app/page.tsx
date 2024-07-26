@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import TestComponent from "./components/TestComponent";
+import TestComponent from "../components/TestComponent";
 
 export const metadata: Metadata = {
   title: "Create Next App",

@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-import TestComponent from "../app/components/TestComponent";
+import TestComponent from "../components/TestComponent";
 
 describe("Page", () => {
   it("renders a heading", () => {
