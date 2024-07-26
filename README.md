@@ -1,7 +1,3 @@
-Here's a README for your project template:
-
----
-
 # Project Template with Next.js, Styled Components, Jest, and Cypress
 
 This is a project template that integrates **Next.js** with **Styled Components** for styling, **Jest** for unit and component testing, and **Cypress** for end-to-end testing.
